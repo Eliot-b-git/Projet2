@@ -370,17 +370,24 @@ h4{
 #activite{
     display: flex;
     flex-direction: row;
+    width: 100%;
     
 }
 #activitemarseille
 {
     width: 95%;
 }
+.liens
+{
+    width: 25%;
+}
 .phototexteactivite
 {
     display: flex;
     flex-direction: column;
     margin-right: 43px;
+
+
 }
 .photoactivite{
     height: 389px;
