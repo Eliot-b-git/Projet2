@@ -1,8 +1,7 @@
 body{
     font-family: 'Raleway';
-    max-width: 1400px;
+    width: 1400px;
     margin: auto;
-    width: 95%;
     
 }
 
@@ -16,23 +15,22 @@ header div img
 }
 
 #Bordure
-{   
+{ 
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
     margin-top: 20px;
-    width: 100%;
 }
 
 #BordureChoix
 {
-    margin-left: 65%;
     font-size: 16px;
     padding-top: 10px;
-    padding-right: 10px;
+    margin-right: 60px;
 }
 
 header div a {
-    margin-left: 20px;
+    margin-left: 25px;
     padding-top: 28px;
     font-weight: 400;
     font-size: 16px;
@@ -120,15 +118,15 @@ input
     flex-direction: row;
 }
 h4{
-    margin-top: 50px;
+    margin-top: 46px;
     margin-right: 0px;
     
 }
 .textefiltre{
     margin-left: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
     padding-top: 4px;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 20px;
     font-weight: 700;
     margin-bottom: 2px;
@@ -184,14 +182,13 @@ h4{
 #hebergementetpopulaire{
     display: flex;
     flex-direction: row;
-    width: 95%;
 }
 
 /* Hébergement à marsailles */
 
 #hebergement
 {
-    width: 65%;
+    width: 880px;
     height: 626px;
     background-color: #F2F2F2;
     border-radius: 20px;
@@ -199,7 +196,7 @@ h4{
 }
 #titrehebergement{
 
-    margin-left: 1%;
+    margin-left: 40px;
     margin-top: 40px;
     padding-bottom: 23px;
    
@@ -209,18 +206,18 @@ h4{
     margin-bottom: 10px;
 }
 #vignettehebergement{
-    margin-left: 1%;
+    margin-left: 40px;
     display: grid;
-	grid-template-columns: 30% 30% 30%;
+	grid-template-columns: 246px 246px 246px;
 	grid-template-rows: 200px 200px;
-    gap: 4%;    
+    gap: 30px;    
 }
 .logement{
     margin-right: 31px;
     background: white;
     border-radius: 20px;
     height: 199px;
-    width: 100%;    
+    width: 246px;    
 }
 .textevignette{
     background: white;
@@ -244,7 +241,7 @@ h4{
 }
 .photohebergement{
     height: 124px;
-    width: 95%;
+    width: 235px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
     margin: 5px;
@@ -270,7 +267,7 @@ h4{
 /* Les plus populaires */
 
 #lespluspopulaire{
-    width: 30%;
+    width: 420px;
     height: 625px;
     background-color: #F2F2F2;
     margin-left: 40px;
@@ -303,14 +300,14 @@ h4{
 {
     margin-left: 5px;
     display: grid;
-	grid-template-columns: 100%;
+	grid-template-columns: 343px;
 	grid-template-rows: 144px 144px 144px;
     gap: 33px;
 }
 .photopopulaire
 {
     height: 136px;
-    width: 40%;
+    width: 137px;
     object-fit: cover;
     border-radius: 20px 0px 0px 20px;
     margin: 4px;
@@ -326,8 +323,8 @@ h4{
 {
     background: white;
     border-radius: 20px;
-    margin-left: 3%;
-    width: 95%;
+    margin-left: 37px;
+    width: 347px;
     height: 144px;
     display: flex;
     flex-direction: row;
@@ -372,10 +369,6 @@ h4{
     flex-direction: row;
     
 }
-#activitemarseille
-{
-    width: 95%;
-}
 .phototexteactivite
 {
     display: flex;
@@ -384,14 +377,14 @@ h4{
 }
 .photoactivite{
     height: 389px;
-    width: 100%;
+    width: 302px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
     box-shadow: 0px 0px 2px gray;
 }
 .contourtexte{
     background: #FFFFFF;  
-    width: 100%;
+    width: 302px;
     height: 56px;
     box-shadow: 0px 0px 2px gray;
     border-radius: 0px 0px 20px 20px;
@@ -410,7 +403,7 @@ h4{
 
 /* bas de page  */
 #cadrebasdepage{
-    width: 93%;
+    width: 1339px;
     height: 225px;
     background: #F2F2F2;
     margin-top: 58px;
@@ -418,7 +411,7 @@ h4{
 #basdepage
 {
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 424px 424px 424px;
 	grid-template-rows: 225px;
 
 }
@@ -443,7 +436,7 @@ footer div article div span{
 
 @media screen and (max-width:992px) {
     body{
-        width: 95%;
+        width: 100%;
         margin-left: auto;
     }
     /* header */
@@ -454,54 +447,11 @@ footer div article div span{
         font-size: 16px;
         padding-top: 10px;
         margin-right: 0px;
-        margin-left: 60%;
     }
     
     /* bouton de recherche */
     #boutonrechercheloupe{
         display: none;
-    }
-    #hebergementetpopulaire{
-
-        width: 100%;
-    }
-    /* filtre icone */
-    .filtre_icone{
-        margin-top: 30px;
-        border: 2px solid #b6b6b6;
-        border-radius: 30px;
-        padding: 5px 13px 5px 13px;
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 10px;
-        margin-left: 18px;
-    }
-    .textefiltre{
-        margin-left: 10px;
-        margin-bottom: 0px;
-        padding-top: 4px;
-        font-size: 13px;
-        line-height: 20px;
-        font-weight: 600;
-        margin-bottom: 2px;
-    
-    }
-
-    /* hébergement */
-    #hebergement
-    {
-        width: 100%;
-        height: 626px;
-        background-color: #F2F2F2;
-        border-radius: 20px;
-        
-    }
-    .logement{
-        margin-right: 0px;
-        background: white;
-        border-radius: 20px;
-        height: 199px;
-        width: 100%;    
     }
     /* les plus populaires */
     #hebergementetpopulaire
@@ -513,14 +463,13 @@ footer div article div span{
     {
         display: flex;
         flex-direction: row;
-        width: 100%;
+        width: 880px;
         height: 278px;
-        margin-left: 15px;
         
     }
     #lespluspopulaire
     {
-        width: 100%;
+        width: 880px;
         height: 278px;
         margin-top: 53px;   
         margin-left: 0px;  
@@ -528,18 +477,13 @@ footer div article div span{
     }
     .photopopulaire
     {
-        width: 40%;
+        width: 100px;
         height: 138px;
     }
     .populaire{
-        width: 250px;
-        margin-left: 20px;
-    }
-    .texte_etoilepop
-    {
-        display: flex;
-        flex-direction: column;
-        width: 60%;
+        width: 252px;
+        height: 144px;
+        margin-right: -15px;
     }
     .infophotospop
     {
@@ -561,50 +505,33 @@ footer div article div span{
     /* activités à marseille */
     #activite
     {
-        width: 100%;
         margin-top: 20px;
     }
-
     .photoactivite{
-        height: 209px;
-        width: 100%;
-        object-fit: cover;
-        border-radius: 20px 20px 0px 0px;
-        box-shadow: 0px 0px 2px gray;
+        height: 211px;
+        width: 182px;
     }
-
+    .contourtexte{
+        width: 182px;
+        height: 56px;
+    }
     /* footer */
     #cadrebasdepage{
-        width: 100%;
+        width: 880px;
         height: 225px;
         margin-top: 58px;
     }
     #basdepage
     {
         display: grid;
-        grid-template-columns: 30% 30% 30%;
+        grid-template-columns: 275px 275px 275px;
         grid-template-rows: 225px;
     
-    }
-    .phototexteactivite {
-        display: flex;
-        flex-direction: column;
-        margin-right: 23px;
-    }
-    /*  */
-    #activitemarseille
-    {
-        width: 100%;
-    }
-    .souspartie
-    {
-        
-        font-size: 15px;
     }
 }
 /* Responsive pour telephone */
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:768px) {
     body{
         font-family: 'Raleway';
         width: 100%;
@@ -737,13 +664,13 @@ footer div article div span{
         
     }
     .logement{
+        margin-right: 31px;
         background: white;
         border-radius: 25px;
         height: 200px;
         width: 85%;    
         box-shadow: 2px 2px 2px rgb(177, 177, 177);
-        
-        margin-bottom: 10px;
+        border: 1px solid black;
     }
     .photohebergement{
         height: 124px;
@@ -769,35 +696,29 @@ footer div article div span{
         display: flex;
         flex-direction: column;
         margin-top: 26px;
-        width: 98%;
+        width: 80%;
+        border: 1px solid black;
         height: 500px;
     }
     .populaire
     {
         background: white;
         border-radius: 20px;
-        width: 95%;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 100%;
         height: 144px;
         display: flex;
         flex-direction: row;
-        margin:0%;
-        margin-top: 10px;
+        margin-top: 11px;
     }
-
     .photopopulaire
     {
         height: 136px;
-        width: 50%;
+        width: 35%;
         object-fit: cover;
         border-radius: 20px 0px 0px 20px;
         margin: 4px;
-    }
-    .texte_etoilepop
-    {
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-
     }
     #lesetoilespops2{
         margin-left: 16px;
@@ -811,12 +732,11 @@ footer div article div span{
     #activite{
         display: flex;
         flex-direction: column;
-        margin: auto;
     }
     #activitemarseille{
         margin-top: 160px;
-        width: 95%;
-        margin: auto;
+        margin-left: 20px;
+        margin-right: 0px;
     }
     .photoactivite{
         height: 134px;
@@ -863,54 +783,5 @@ footer div article div span{
 @media screen and (max-width:300px) {
     input{
         width: 100%;
-    }
-}
-
-@media screen and (max-width:374px) {
-    #lesetoilespops2{
-        margin-left: 16px;
-        margin-top: 25px;  
-    }
-    #lesetoilespops{
-        margin-left: 16px;
-        margin-top: 35px;  
-    }
-}
-
-@media screen and (min-width: 800px) and (max-width:894px) {
-    .populaire{
-        width: 230px;
-    }
-    #lesetoilespops1{
-        margin-top: 20px;
-    }
-    #lesetoilespops2{
-        margin-top: 20px;
-    }
-    #lesetoilespops{
-        margin-top: 35px;
-    }
-    .photoactivite{
-        height: 150px;
-    }
-}
-
-@media screen and (min-width: 767px) and (max-width:800px) {
-    .populaire{
-        width: 210px;
-    }
-    #lesetoilespops2{
-        margin-top: 5px;
-    }
-}
-
-@media screen and (max-width:1150px) {
-
-    .photoactivite{
-        height: 200px;
-    }
-    #textepopulaire
-    {
-        font-size: 20px;
     }
 }
