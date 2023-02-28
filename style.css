@@ -717,11 +717,12 @@ footer div article div span{
 
     #hebergement
     {
-        width: 100%;
+        width: 95%;
         height: 1400px;
         border-radius: 20px;
         background-color: white;
         order: 1;
+        margin: auto;
         
     }
     #titrehebergement{
@@ -780,7 +781,7 @@ footer div article div span{
         height: 144px;
         display: flex;
         flex-direction: row;
-        margin:0%;
+        margin:auto;
         margin-top: 10px;
     }
 
@@ -812,6 +813,8 @@ footer div article div span{
         display: flex;
         flex-direction: column;
         margin: auto;
+        width: 100%;
+
     }
     #activitemarseille{
         margin-top: 160px;
@@ -824,6 +827,7 @@ footer div article div span{
         object-fit: cover;
         border-radius: 20px 20px 0px 0px;
         box-shadow: 0px 0px 2px gray;
+        margin: auto;
         
     }
     .contourtexte{
