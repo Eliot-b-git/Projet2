@@ -20,25 +20,24 @@ header div img
     display: flex;
     flex-direction: row;
     margin-top: 20px;
-    width: 100%;
+    width: 92%;
+    justify-content: space-between;
 }
 
 #BordureChoix
 {
-    margin-left: 65%;
     font-size: 16px;
     padding-top: 10px;
     padding-right: 10px;
 }
 
 header div a {
-    margin-left: 20px;
+    margin-left: 68px;
     padding-top: 28px;
     font-weight: 400;
     font-size: 16px;
     text-decoration: none;
     color: black;
-
 }
 header div a:hover {
     border-top: 2px solid #0065FC;
@@ -246,7 +245,7 @@ h4{
     font-weight: 400;
     font-size: 14px;
 }
-.photohebergement{
+.photohebergement{ 
     height: 124px;
     width: 95%;
     object-fit: cover;
@@ -281,7 +280,9 @@ h4{
     margin-left: 40px;
     border-radius: 20px;
 }
-
+.lienspop{
+    width: 100%;
+}
 #titreetlogo
 {
     display: flex;
@@ -462,13 +463,29 @@ footer div article div span{
     }
     /* header */
 
+    #Bordure
+    {   
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        width: 100%;
+        justify-content: space-between;
+    }
 
+    header div a {
+        margin-left: 68px;
+        padding-top: 28px;
+        font-weight: 400;
+        font-size: 16px;
+        text-decoration: none;
+        color: black;
+    }
     #BordureChoix
     {
         font-size: 16px;
         padding-top: 10px;
         margin-right: 0px;
-        margin-left: 60%;
+        margin-left: 10px;
     }
     
     /* bouton de recherche */
@@ -477,7 +494,7 @@ footer div article div span{
     }
     #hebergementetpopulaire{
 
-        width: 100%;
+        width: 98%;
     }
     /* filtre icone */
     .filtre_icone{
@@ -527,9 +544,9 @@ footer div article div span{
     {
         display: flex;
         flex-direction: row;
-        width: 100%;
+        width: 98%;
         height: 278px;
-        margin-left: 15px;
+        margin-left: 22px;
         
     }
     #lespluspopulaire
@@ -541,7 +558,8 @@ footer div article div span{
         gap: 23px;
     }
     .lienspop{
-        width: 30%;
+        width: 31%;
+        margin-left: 10px;
     }
     .photopopulaire
     {
@@ -549,8 +567,8 @@ footer div article div span{
         height: 138px;
     }
     .populaire{
-        width: 250px;
-        margin-left: 20px;
+        width: 90%;
+        margin-left: 0px;
         
     }
     .texte_etoilepop
@@ -568,13 +586,13 @@ footer div article div span{
         font-size: 13px;
     }
     #lesetoilespops1{
-        margin-top: 35px;
+        margin-top: 5px;
     }
     #lesetoilespops2{
         margin-top: 20px;
     }
     #lesetoilespops{
-        margin-top: 40px;
+        margin-top: 35px;
     }
     /* activités à marseille */
     #activite
@@ -908,7 +926,7 @@ footer div article div span{
     }
 }
 
-@media screen and (min-width: 800px) and (max-width:894px) {
+@media screen and (min-width: 830px) and (max-width:920px) {
     .populaire{
         width: 230px;
     }
@@ -926,22 +944,41 @@ footer div article div span{
     }
 }
 
-@media screen and (min-width: 767px) and (max-width:800px) {
+@media screen and (min-width: 767px) and (max-width:830px) {
     .populaire{
         width: 210px;
     }
     #lesetoilespops2{
         margin-top: 5px;
     }
+    #lesetoilespops1{
+        margin-top: 20px;
+    }
 }
+@media screen and (min-width: 929px) and (max-width:960px) {
+    #lesetoilespops1{
+        margin-top: 25px;
+    }
+}
+
+@media screen and (min-width: 960px) and (max-width:992px) {
+    #lesetoilespops1{
+        margin-top: 35px;
+    }
+}
+
+
 
 @media screen and (max-width:1150px) {
 
     .photoactivite{
-        height: 200px;
+        height: 250px;
     }
     #textepopulaire
     {
         font-size: 20px;
+    }
+    .textevignettepopulaire{
+        font-size: 12px;
     }
 }
