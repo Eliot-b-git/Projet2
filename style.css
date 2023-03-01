@@ -20,7 +20,7 @@ header div img
     display: flex;
     flex-direction: row;
     margin-top: 20px;
-    width: 92%;
+    width: 95%;
     justify-content: space-between;
 }
 
@@ -126,7 +126,7 @@ h4{
 .textefiltre{
     margin-left: 10px;
     margin-bottom: 0px;
-    padding-top: 4px;
+    padding-top: 6px;
     font-size: 15px;
     line-height: 20px;
     font-weight: 700;
@@ -134,7 +134,7 @@ h4{
 
 }
 #logo{
-    padding: 5px;
+    padding: 7px 5px 5px 5px;
     height: 18px;
     width: 22px;
 }
@@ -144,7 +144,7 @@ h4{
     width: 14px;
 }
 #logo3{
-    padding: 5px;
+    padding: 7px 5px 5px 5px;
     height: 19px;
     width: 22px;
 }
@@ -316,7 +316,8 @@ h4{
 .photopopulaire
 {
     height: 136px;
-    width: 40%;
+    min-width: 40%;
+    max-width: 40%;
     object-fit: cover;
     border-radius: 20px 0px 0px 20px;
     margin: 4px;
@@ -498,22 +499,22 @@ footer div article div span{
     }
     /* filtre icone */
     .filtre_icone{
-        margin-top: 30px;
+        margin-top: 35px;
         border: 2px solid #b6b6b6;
         border-radius: 30px;
-        padding: 5px 13px 5px 13px;
+        padding: 5px 15px 5px 15px;
         display: flex;
         flex-direction: row;
-        margin-bottom: 10px;
-        margin-left: 18px;
+        margin-bottom: 7px;
+        margin-left: 30px;
     }
     .textefiltre{
         margin-left: 10px;
         margin-bottom: 0px;
-        padding-top: 4px;
-        font-size: 13px;
+        padding-top: 6px;
+        font-size: 15px;
         line-height: 20px;
-        font-weight: 600;
+        font-weight: 700;
         margin-bottom: 2px;
     
     }
@@ -534,6 +535,7 @@ footer div article div span{
         height: 199px;
         width: 100%;    
     }
+
     /* les plus populaires */
     #hebergementetpopulaire
     {
@@ -657,7 +659,7 @@ footer div article div span{
     }
     #logobooki
     {
-        margin: 0px 45% 21px 45%;
+        margin: auto;
     }
     #BordureChoix
     {
@@ -723,9 +725,7 @@ footer div article div span{
         margin-left: 0px; 
         border: 2px solid #b6b6b6;
         border-radius: 25px;
-        padding-left: 15px;
-        padding-top: 7px;
-        padding-left: 4px;
+        padding: 4px 12px 4px 12px;
         width: 90%;
         height: 30px;
         display: flex;
@@ -733,9 +733,9 @@ footer div article div span{
 
     }
     .textefiltre{
+        margin-top: 0px;
+        margin-bottom: 0px;
         margin-left: 5px;
-        margin-bottom: 5px;
-        padding-top: 4px;
         font-size: 11px;
         line-height: 20px;
         font-weight: 700;
@@ -768,27 +768,31 @@ footer div article div span{
         padding-bottom: 23px;
     }
     #vignettehebergement{
-        margin-left: 20px;
+        margin: auto;
         display: flex;
         flex-direction: column;
-        
+        width: 90%;
+        border: 1px solid black;
     }
+
     .logement{
+        margin-right: 0px;
         background: white;
-        border-radius: 25px;
-        height: 200px;
-        width: 85%;    
-        box-shadow: 2px 2px 2px rgb(177, 177, 177);
-        
-        margin-bottom: 10px;
+        border-radius: 20px;
+        height: 210px;
+        width: 98%;  
+        border: 1px solid black;
+        margin-bottom: 20px;
     }
-    .photohebergement{
+
+    .photohebergement{ 
         height: 124px;
-        width: 97%;
+        width: 95%;
         object-fit: cover;
         border-radius: 20px 20px 0px 0px;
         margin: 5px;
     }
+    
     /* Les plus populaires */
 
     #lespluspopulaire{
@@ -924,6 +928,9 @@ footer div article div span{
         margin-left: 16px;
         margin-top: 35px;  
     }
+    .textefiltre{
+        font-size: 9px; 
+    }
 }
 
 @media screen and (min-width: 830px) and (max-width:920px) {
@@ -942,6 +949,9 @@ footer div article div span{
     .photoactivite{
         height: 150px;
     }
+    .textefiltre{
+        font-size: 13px;  
+    }
 }
 
 @media screen and (min-width: 767px) and (max-width:830px) {
@@ -954,6 +964,19 @@ footer div article div span{
     #lesetoilespops1{
         margin-top: 20px;
     }
+    .filtre_icone{
+        margin-top: 35px;
+        border: 2px solid #b6b6b6;
+        border-radius: 30px;
+        padding: 5px 12px 5px 12px;
+        margin-left: 25px;
+        margin-left: 30px;
+    }
+    .textefiltre{
+        font-size: 12px; 
+
+    }
+
 }
 @media screen and (min-width: 929px) and (max-width:960px) {
     #lesetoilespops1{
