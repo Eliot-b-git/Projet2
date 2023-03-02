@@ -211,11 +211,11 @@ h4{
     margin-left: 5%;
 }
 #vignettehebergement{
-    margin-left: 5%;
+    margin-left: 4%;
     display: grid;
-	grid-template-columns: 29% 29% 29%;
+	grid-template-columns: 30% 30% 30%;
 	grid-template-rows: 210px 210px;
-    gap: 4%;    
+    gap: 3%;    
 }
 .logement{
     margin-right: 31px;
@@ -231,12 +231,13 @@ h4{
     margin-left: 16px;
     display: flex;
     flex-direction: column;
+    margin-top: 4px;
     
 }
 .infophotos
 {
     font-weight: 700;
-    font-size: 16px;
+    font-size: 15px;
     margin-top: -5px;
 
 }
@@ -244,7 +245,7 @@ h4{
 {
     margin-top: 5px;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 13px;
 }
 .photohebergement{ 
     height: 124px;
@@ -533,8 +534,22 @@ footer div article div span{
         margin-right: 0px;
         background: white;
         border-radius: 20px;
-        height: 199px;
+        height: 205px;
         width: 100%;    
+    }
+
+    .infophotos
+    {
+        font-weight: 700;
+        font-size: 15Spx;
+        margin-top: -5px;
+
+    }
+    .infoprix
+    {
+        margin-top: 5px;
+        font-weight: 400;
+        font-size: 13px;
     }
 
     /* les plus populaires */
@@ -793,6 +808,9 @@ footer div article div span{
         margin: 5px;
         width: 97%;
     }
+    #affichezplus{
+        margin-left: 20px;
+    }
     
     /* Les plus populaires */
 
@@ -859,7 +877,9 @@ footer div article div span{
         flex-direction: column;
         margin: auto;
         width: 100%;
-
+    }
+    h2 {
+        margin-left: 20px;
     }
     #activitemarseille{
         margin-top: 160px;
@@ -889,8 +909,8 @@ footer div article div span{
         display: flex;
         flex-direction: row;
         margin-bottom: 24px;
-    
     }
+
     /* A propos ... */
     #cadrebasdepage{
         width: 100%;
@@ -970,11 +990,11 @@ footer div article div span{
         border: 2px solid #b6b6b6;
         border-radius: 30px;
         padding: 5px 12px 5px 12px;
-        margin-left: 25px;
+
         margin-left: 30px;
     }
     .textefiltre{
-        font-size: 12px; 
+        font-size: 11px; 
 
     }
 
@@ -1004,5 +1024,93 @@ footer div article div span{
     }
     .textevignettepopulaire{
         font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 1331px) and (max-width:1404px) {
+
+    #lesetoilespops{
+        margin-top: 35px;
+    }
+
+}
+
+@media screen and (min-width: 1132px) and (max-width:1331px) {
+    #lesetoilespops{
+        margin-top: 35px;
+    }
+    #lesetoilespops2{
+        margin-top: 15px;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1132px) {
+    #lesetoilespops{
+        margin-top: 35px;
+    }
+    #lesetoilespops2{
+        margin-top: 20px;
+    }
+    .infophotospop
+    {
+        margin-top: 16px;
+        font-weight: 700;
+        font-size: 14px;
+        margin-right: 22px;
+    }
+    .infoprixpop
+    {
+        margin-top: 7px;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .infophotos
+    {
+        font-weight: 700;
+        font-size: 14px;
+        margin-top: -5px;
+
+    }
+    .infoprix
+    {
+        margin-top: 5px;
+        font-weight: 400;
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1025px) {
+    #lesetoilespops{
+        margin-top: 35px;
+    }
+    #lesetoilespops2{
+        margin-top: 20px;
+    }
+    #lesetoilespops1{
+        margin-top: 25px;
+    }
+    .infophotospop
+    {
+        margin-top: 16px;
+        font-weight: 700;
+        font-size: 14px;
+        margin-right: 22px;
+    }
+    .infoprixpop
+    {
+        margin-top: 7px;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .infophotos
+    {
+        font-weight: 700;
+        font-size: 13px;
+        margin-top: -5px;
+
+    }
+    .infoprix
+    {
+        margin-top: 5px;
+        font-weight: 400;
+        font-size: 11px;
     }
 }
