@@ -20,7 +20,7 @@ header div img
     display: flex;
     flex-direction: row;
     margin-top: 20px;
-    width: 95%;
+    width: 100%;
     justify-content: space-between;
 }
 
@@ -28,7 +28,7 @@ header div img
 {
     font-size: 16px;
     padding-top: 10px;
-    padding-right: 10px;
+    padding-right: 0px;
 }
 
 header div a {
@@ -133,26 +133,19 @@ h4{
     margin-bottom: 2px;
 
 }
-#logo{
-    padding: 7px 5px 5px 5px;
-    height: 18px;
-    width: 22px;
+.filtrelogo
+{
+    font-size: 1.3em;
+    color: #0065fc;
+    margin-top: 7px;
 }
-#logo2{
-    padding: 5px;
-    height: 22px;
-    width: 14px;
+
+.filtrelogo2{
+    font-size: 1.3em;
+    color: #0065fc;
+    margin-top: 5px;
 }
-#logo3{
-    padding: 7px 5px 5px 5px;
-    height: 19px;
-    width: 22px;
-}
-#logo4{
-    padding: 5px;
-    height: 22px;
-    width: 22px;
-}
+
 .filtre_icone:hover{
     background-color: #DEEBFF;
 }
@@ -165,15 +158,17 @@ h4{
     flex-direction: row;
     margin-top: 5px;
 }
-#pointdexclamation
-{
-    width: 4px;
-    height: 10px;
-    padding: 4px 7px 4px 7px;
-    border: 1px solid #b6b6b6;
-    border-radius: 150px;
-    margin-top: 35px;
-    margin-right: 21px;
+
+.logoinfo{
+    font-size: 0.6em; 
+    color: #0065fc; 
+    margin-top: 35px; 
+    margin-bottom: 36px; 
+    margin-right: 10px; 
+    padding: 4px 8px 4px 8px; 
+    border: 1px solid #b6b6b6; 
+    border-radius: 25px; 
+    box-sizing: border-box;
 }
 #texteinformation{
     font-weight: 400;
@@ -183,7 +178,18 @@ h4{
 #hebergementetpopulaire{
     display: flex;
     flex-direction: row;
-    width: 95%;
+    width: 100%;
+}
+
+.etoile{
+    font-size: 0.8em; 
+    color: #0065fc;
+    margin-left: 0px;
+}
+.etoilegris{
+    font-size: 0.8em; 
+    color:  #F2F2F2;
+    margin-left: 0px;
 }
 
 /* Hébergement à marsailles */
@@ -329,6 +335,7 @@ h4{
     display: flex;
     flex-direction: column;
     margin-left: 16px;
+    flex: 1;
 
 }
 .populaire
@@ -361,19 +368,26 @@ h4{
 {
     display: flex;
     flex-direction: column;
+    flex: 1;
 
+}
+.vide{
+    flex: 2;
 }
 #lesetoilespops1{
     margin-left: 16px;
-    margin-top: 40px;  
+    flex: 1;
+    margin-bottom: 10px;
 }
 #lesetoilespops2{
     margin-left: 16px;
-    margin-top: 40px;  
+    flex: 1;
+    margin-bottom: 10px;
 }
 #lesetoilespops{
     margin-left: 16px;
-    margin-top: 58px;  
+    flex: 1;
+    margin-bottom: 10px;
 }
 
 /* Activités à marseille */
@@ -382,6 +396,7 @@ h4{
     display: flex;
     flex-direction: row;
     width: 100%;
+    justify-content: space-between;
     
 }
 #activitemarseille
@@ -390,13 +405,13 @@ h4{
 }
 .liens
 {
-    width: 25%;
+    width: 23%;
 }
 .phototexteactivite
 {
     display: flex;
     flex-direction: column;
-    margin-right: 43px;
+    margin-right: 0px;
 
 
 }
@@ -428,7 +443,7 @@ h4{
 
 /* bas de page  */
 #cadrebasdepage{
-    width: 93%;
+    width: 100%;
     height: 225px;
     background: #F2F2F2;
     margin-top: 58px;
@@ -497,7 +512,7 @@ footer div article div span{
     }
     #hebergementetpopulaire{
 
-        width: 98%;
+        width: 100%;
     }
     /* filtre icone */
     .filtre_icone{
@@ -508,13 +523,13 @@ footer div article div span{
         display: flex;
         flex-direction: row;
         margin-bottom: 7px;
-        margin-left: 30px;
+        margin-left: 23px;
     }
     .textefiltre{
-        margin-left: 10px;
+        margin-left: 9px;
         margin-bottom: 0px;
         padding-top: 6px;
-        font-size: 15px;
+        font-size: 14px;
         line-height: 20px;
         font-weight: 700;
         margin-bottom: 2px;
@@ -603,15 +618,7 @@ footer div article div span{
     {
         font-size: 13px;
     }
-    #lesetoilespops1{
-        margin-top: 5px;
-    }
-    #lesetoilespops2{
-        margin-top: 20px;
-    }
-    #lesetoilespops{
-        margin-top: 35px;
-    }
+
     /* activités à marseille */
     #activite
     {
@@ -934,7 +941,7 @@ footer div article div span{
     }    
 }
 
-@media screen and (max-width:300px) {
+/* @media screen and (max-width:300px) {
     input{
         width: 100%;
     }
@@ -955,6 +962,9 @@ footer div article div span{
 }
 
 @media screen and (min-width: 830px) and (max-width:920px) {
+    
+
+    
     .populaire{
         width: 230px;
     }
@@ -970,12 +980,9 @@ footer div article div span{
     .photoactivite{
         height: 150px;
     }
-    .textefiltre{
-        font-size: 13px;  
-    }
 }
 
-@media screen and (min-width: 767px) and (max-width:830px) {
+@media screen and (min-width: 768px) and (max-width:830px) {
     .populaire{
         width: 210px;
     }
@@ -996,6 +1003,10 @@ footer div article div span{
     .textefiltre{
         font-size: 11px; 
 
+    }
+    
+    .photoactivite{
+        height: 100px;
     }
 
 }
@@ -1113,4 +1124,4 @@ footer div article div span{
         font-weight: 400;
         font-size: 11px;
     }
-}
+} */
