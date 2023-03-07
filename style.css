@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+
 body{
     font-family: 'Raleway';
     max-width: 1400px;
@@ -5,14 +11,6 @@ body{
     width: 95%;
     
 }
-
-@font-face {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCFPrEHJA.woff2) format('woff2');
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-  }
 
 /*En tête*/
 
@@ -180,16 +178,18 @@ h4{
 {
     display: flex;
     flex-direction: row;
-    margin-top: 5px;
+    margin-top: 1px;
 }
-
+#info{
+    padding-top: 2px;
+}
 .logoinfo{
     font-size: 0.6em; 
     color: #0065fc; 
-    margin-top: 35px; 
+    margin-top: 36px; 
     margin-bottom: 36px; 
     margin-right: 10px; 
-    padding: 4px 8px 4px 8px; 
+    padding: 3px 6px 3px 6px; 
     border: 1px solid #b6b6b6; 
     border-radius: 25px; 
     box-sizing: border-box;
