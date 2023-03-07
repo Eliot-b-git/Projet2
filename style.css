@@ -62,15 +62,27 @@ header p
 {
     display: flex;
     flex-direction: row;
-    border: 1px solid #F2F2F2;
+    
     border-radius: 15px;
-    width: 332px;
+    width: 400px;
     height: 49px;
+}
+#boutonrecherche{
+    width: 30%;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 11px;
+
+    background-color: #0065FC;
+    color: white;
+    border-radius: 0px 15px 15px 0px;
 }
 
 #boutonrechercheloupe{
     display: none;
 }
+
 #logolocalisation
 {
     height: 19px;
@@ -79,12 +91,16 @@ header p
     background-color: #F2F2F2;
     padding: 15px;
 }
+form{
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+}
 
 input
 {
     border: none;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 11px;
     font-weight: 700;
     font-style: normal;
     font-size: 18px;
@@ -300,11 +316,10 @@ h4{
     margin-top: 41px;
 }
 
-#graph{
-    width: 18px;
-    height: 16px;  
+.graph{
     margin-top: 3px;
     margin-right: 42px;  
+    color: #0065fc;
 }
 
 #textepopulaire{
@@ -870,14 +885,7 @@ footer div article div span{
         width: 60%;
 
     }
-    #lesetoilespops2{
-        margin-left: 16px;
-        margin-top: 40px;  
-    }
-    #lesetoilespops{
-        margin-left: 16px;
-        margin-top: 60px;  
-    }
+
     /* Activités Marseille */
     #activite{
         display: flex;
@@ -941,187 +949,3 @@ footer div article div span{
     }    
 }
 
-/* @media screen and (max-width:300px) {
-    input{
-        width: 100%;
-    }
-}
-
-@media screen and (max-width:374px) {
-    #lesetoilespops2{
-        margin-left: 16px;
-        margin-top: 25px;  
-    }
-    #lesetoilespops{
-        margin-left: 16px;
-        margin-top: 35px;  
-    }
-    .textefiltre{
-        font-size: 9px; 
-    }
-}
-
-@media screen and (min-width: 830px) and (max-width:920px) {
-    
-
-    
-    .populaire{
-        width: 230px;
-    }
-    #lesetoilespops1{
-        margin-top: 20px;
-    }
-    #lesetoilespops2{
-        margin-top: 20px;
-    }
-    #lesetoilespops{
-        margin-top: 35px;
-    }
-    .photoactivite{
-        height: 150px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width:830px) {
-    .populaire{
-        width: 210px;
-    }
-    #lesetoilespops2{
-        margin-top: 5px;
-    }
-    #lesetoilespops1{
-        margin-top: 20px;
-    }
-    .filtre_icone{
-        margin-top: 35px;
-        border: 2px solid #b6b6b6;
-        border-radius: 30px;
-        padding: 5px 12px 5px 12px;
-
-        margin-left: 30px;
-    }
-    .textefiltre{
-        font-size: 11px; 
-
-    }
-    
-    .photoactivite{
-        height: 100px;
-    }
-
-}
-@media screen and (min-width: 929px) and (max-width:960px) {
-    #lesetoilespops1{
-        margin-top: 25px;
-    }
-}
-
-@media screen and (min-width: 960px) and (max-width:992px) {
-    #lesetoilespops1{
-        margin-top: 35px;
-    }
-}
-
-
-
-@media screen and (max-width:1150px) {
-
-    .photoactivite{
-        height: 250px;
-    }
-    #textepopulaire
-    {
-        font-size: 20px;
-    }
-    .textevignettepopulaire{
-        font-size: 12px;
-    }
-}
-
-@media screen and (min-width: 1331px) and (max-width:1404px) {
-
-    #lesetoilespops{
-        margin-top: 35px;
-    }
-
-}
-
-@media screen and (min-width: 1132px) and (max-width:1331px) {
-    #lesetoilespops{
-        margin-top: 35px;
-    }
-    #lesetoilespops2{
-        margin-top: 15px;
-    }
-}
-@media screen and (min-width: 1025px) and (max-width: 1132px) {
-    #lesetoilespops{
-        margin-top: 35px;
-    }
-    #lesetoilespops2{
-        margin-top: 20px;
-    }
-    .infophotospop
-    {
-        margin-top: 16px;
-        font-weight: 700;
-        font-size: 14px;
-        margin-right: 22px;
-    }
-    .infoprixpop
-    {
-        margin-top: 7px;
-        font-weight: 400;
-        font-size: 12px;
-    }
-    .infophotos
-    {
-        font-weight: 700;
-        font-size: 14px;
-        margin-top: -5px;
-
-    }
-    .infoprix
-    {
-        margin-top: 5px;
-        font-weight: 400;
-        font-size: 12px;
-    }
-}
-@media screen and (min-width: 992px) and (max-width: 1025px) {
-    #lesetoilespops{
-        margin-top: 35px;
-    }
-    #lesetoilespops2{
-        margin-top: 20px;
-    }
-    #lesetoilespops1{
-        margin-top: 25px;
-    }
-    .infophotospop
-    {
-        margin-top: 16px;
-        font-weight: 700;
-        font-size: 14px;
-        margin-right: 22px;
-    }
-    .infoprixpop
-    {
-        margin-top: 7px;
-        font-weight: 400;
-        font-size: 12px;
-    }
-    .infophotos
-    {
-        font-weight: 700;
-        font-size: 13px;
-        margin-top: -5px;
-
-    }
-    .infoprix
-    {
-        margin-top: 5px;
-        font-weight: 400;
-        font-size: 11px;
-    }
-} */
